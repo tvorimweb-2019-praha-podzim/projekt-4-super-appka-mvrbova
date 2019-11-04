@@ -51,15 +51,18 @@ body {
 
 .menu {
     margin: 0;
-    padding: 15px 0;
+    /* padding: 15px 0; */
     display: flex;
     list-style: none;
     justify-content: space-around;
+    padding: 0;
+    align-items: center;
+    flex-grow: 1;
 }
 
 .vychytavka {
     margin: 0;
-    padding: 30px;
+    /* padding: 30px; */
     text-decoration: none;
     list-style: none;
     text-align: center;
@@ -78,14 +81,16 @@ body {
     margin: 0;
     padding: 0;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .aplikace {
     margin: 0;
-    padding: 80px 30px;
+    padding: 0 30px;
     font-size: 90px;
     font-weight: normal;
-    /*padding-top: 50px;*/
+    padding-top: 50px;
 }
 
 .popis {
@@ -126,7 +131,7 @@ a:hover {
 .telefon {
     position: absolute;
     right: 0;
-    top: 94px;
+    top: 55px;
 }
 
 .moznosti {
